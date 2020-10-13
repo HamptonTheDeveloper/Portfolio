@@ -3,17 +3,46 @@ main .wrapper{
 }
 .logo {
   font-family:'Times New Roman', Times, serif;
-  font-size: 30px;
+  font-size: 25px;
   color:whitesmoke;
   text-align: center;
   margin:0;
-  padding: 20px 0;
+  padding: 0;
+}
+
+header nav{
+  display: flex;
+  justify-content: center; 
+  margin: 0 10px 0;
+}
+
+header nav ul{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 0;
+  list-style: none;
+  margin: 0 10px 0;
+}
+
+header nav ul li{
+  list-style-type: none;
+}
+
+header nav ul li a{
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 0 20px 0;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  display: flex;
 }
 .photo {
 display: flex;
 margin-left: auto;
 margin-right: auto;
 width: 50%;
+margin-top: auto;
 }
 
 body { 
@@ -22,7 +51,7 @@ body {
 
 header {
 	height: 100px;
-	background-color: darkgoldenrod;
+  background-color: darkgoldenrod;
 }
 
 header h2 {
@@ -30,6 +59,28 @@ header h2 {
 	color: whitesmoke;
 	font-size: 20px;
 	text-align: center;
+}
+
+header h2 ul{
+  list-style-type: none;
+}
+
+form {
+  padding: 8px;
+}
+
+form label{
+  display: block;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  margin: 10px;
+}
+
+form textarea{
+  height: 100px;
 }
 
 footer {
@@ -74,5 +125,9 @@ footer p {
 @media all and (min-width:600px){
   .logo{
     font-size: 65px;
+  }
+  .group{
+    margin: 8px 8px 8px;
+    flex-direction: row;
   }
 }
