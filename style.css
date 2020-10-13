@@ -1,6 +1,9 @@
+/* I used wrapper here to refer to the behavior of the entire main*/
 main .wrapper{
   flex-wrap: wrap;
 }
+
+/* Mobiity first styling in order of appearance*/
 .logo {
   font-family:'Times New Roman', Times, serif;
   font-size: 25px;
@@ -37,6 +40,8 @@ header nav ul li a{
   text-align: center;
   display: flex;
 }
+
+/*photo styles*/
 .photo {
 display: flex;
 margin-left: auto;
@@ -45,6 +50,7 @@ width: 50%;
 margin-top: auto;
 }
 
+/*more styling*/
 body { 
   font-family: 'Times New Roman', Times, serif;
 }
@@ -65,6 +71,7 @@ header h2 ul{
   list-style-type: none;
 }
 
+/*form*/
 form {
   padding: 8px;
 }
@@ -83,6 +90,7 @@ form textarea{
   height: 100px;
 }
 
+/* even more styles*/
 footer {
 	background-color:darkgoldenrod;
 }
