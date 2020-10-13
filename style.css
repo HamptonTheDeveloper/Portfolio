@@ -9,7 +9,7 @@ main .wrapper{
   font-size: 25px;
   color:whitesmoke;
   text-align: center;
-  margin:0;
+  margin-bottom:2px;
   padding: 0;
 }
 
@@ -48,6 +48,7 @@ margin-left: auto;
 margin-right: auto;
 width: 50%;
 margin-top: auto;
+margin-bottom: auto;
 }
 
 /*more styling*/
@@ -58,6 +59,7 @@ body {
 header {
 	height: 100px;
   background-color: darkgoldenrod;
+  margin-bottom: 10px;
 }
 
 header h2 {
@@ -91,6 +93,7 @@ form textarea{
 }
 
 /* even more styles*/
+
 footer {
 	background-color:darkgoldenrod;
 }
