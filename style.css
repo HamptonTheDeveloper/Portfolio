@@ -4,13 +4,15 @@ main .wrapper{
 }
 
 /* Mobiity first styling in order of appearance*/
+
 .logo {
   font-family:'Times New Roman', Times, serif;
-  font-size: 25px;
+  font-size: 20px;
   color:whitesmoke;
   text-align: center;
   margin-bottom:2px;
   padding: 0;
+  
 }
 
 header nav{
@@ -30,6 +32,7 @@ header nav ul{
 
 header nav ul li{
   list-style-type: none;
+  display: flex;
 }
 
 header nav ul li a{
@@ -133,7 +136,7 @@ footer p {
   margin: 0;
 }
 
-@media all and (min-width:600px){
+@media all and (min-width:800px){
   .logo{
     font-size: 65px;
   }
